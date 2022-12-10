@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="body">
+    <view class="header">
+        <navigator url="../index/index" open-type="redirect"><text class="logo">镇江市江南学校</text></navigator>
+    </view>
+    <view class="banner">
+    <image src="../index/banner.jpg"></image>
+		<view class="wraper">
+            <view class="wr">
+                <text class="tittle">镇江市江南学校</text>
+                <view class="line"></view>
+                <text class="te">欢迎来到镇江市江南学校官方小程序</text>
+            </view>
+		</view>
+    </view>
+    <view class="footer">
+        <view class="li">
+            <navigator url="../index/index" open-type="redirect"><text class="list">首页</text></navigator>
+            <navigator url="../index/index" open-type="redirect"><text class="list">校园资讯</text></navigator>
+            <navigator url="../index/index" open-type="redirect"><text class="list">校史馆</text></navigator>
+            <navigator url="../index/index" open-type="redirect"><text class="list">用户中心</text></navigator>
+        </view>
+    </view>
+</view>

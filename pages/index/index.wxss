@@ -1,0 +1,65 @@
+/**index.wxss**/
+
+.header {
+    height: 100rpx;
+	background: #CCCCCC;
+}
+.header .logo {
+	float: left;
+	margin-left: 30rpx;
+    line-height: 100rpx;
+    font-size: 40rpx;
+	color: #FFFFFF;
+	font-weight: 700;
+}
+.banner {
+    position: relative;
+}
+.banner image {
+    width: 100%;
+
+}
+.wraper {
+    top: 0px;
+    width: 100%;
+    position: absolute;
+	text-align: center;
+	padding-top: 150rpx;
+}
+.wraper .line {
+	width: 65%;
+	background: #828282;
+	height: 4rpx;
+    margin: 0 auto;
+    margin-top: 30rpx;
+	margin-bottom: 40rpx;
+}
+.wraper .tittle {
+    margin-bottom: 20rpx;
+    font-size: 50rpx;
+    color: #fffffff0;
+}
+.wraper .te {
+    font-size: 32rpx;
+    margin-bottom: 20rpx;
+    color: #fffffff0;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    height: 100rpx;
+    width: 100%;
+    background: #CCCCCC;
+}
+.footer .li{
+    height: 60rpx;
+    text-align: center;
+    display: flex;
+    /* 左右居中 */
+    justify-content: center;
+}
+.footer .list{
+    float: left;
+	margin-right: 40rpx;
+    line-height: 60rpx;
+}
